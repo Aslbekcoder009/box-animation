@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.row{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    animation-name: row;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-delay:1s;
+    box-shadow: rgba(173, 232, 37, 0.56) 1px 22px 70px 4px;
+}
+@keyframes row {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: rgb(41, 89, 193);
+      }
+      10% {
+        top: 0px;
+        left: 500px;
+        background-color: rgb(54, 183, 21);
+      }
+      20% {
+        top: 200px;
+        left: 500px;
+        background-color: rgb(219, 110, 219);
+      }
+      30% {
+        top: 200px;
+        left: 1000px;
+        background-color: rgb(123, 209, 209);
+      }
+      40% {
+        top: 400px;
+        left: 1000px;
+        background-color: rgb(165, 165, 211);
+      }
+      50% {
+        top: 400px;
+        left: 600px;
+        background-color: rgb(193, 125, 193);
+      }
+      60% {
+        top: 300px;
+        left: 600px;
+        background-color: rgb(170, 207, 207);
+      }
+      70% {
+        top: 300px;
+        left: 400px;
+        background-color: rgb(210, 66, 75);
+      }
+      80% {
+        top: 200px;
+        left: 150px;
+        background-color: darkkhaki;
+      }
+      90% {
+        top: 200px;
+        left: 0px;
+        background-color: rgb(32, 33, 29);
+      }
+      100% {
+        top: 0px;
+        left: 0px;
+        background-color: rgb(6, 196, 183);
+      }
+  
+    
+}
